@@ -39,10 +39,10 @@ async def help(event):
   helptext = "**EKİPTaggerBot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/ekiptaggerbot?startgroup=a')],
-                      [Button.url('Support👨‍💻', 'https://t.me/ekip')],
-                      [Button.url('Resmi Kanal🔖', 'https://t.me/ekip')],
-		      [Button.url('Developer🧑‍🔧', 'https://t.me/ekip')],
+                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/azrailekipbot?startgroup=a')],
+                      [Button.url('Support👨‍💻', 'https://t.me/+rqnfj7EibUI2MTk0')],
+                      [Button.url('Resmi Kanal🔖', 'https://t.me/+rqnfj7EibUI2MTk0')],
+		      [Button.url('Developer🧑‍🔧', 'https://t.me/Ekip_Emir25')],
                     ),
                     link_preview=False
                    )
@@ -52,7 +52,7 @@ async def help(event):
   helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @EkipTaggerBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/ekiptaggerbot?startgroup=a')],
+                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/azrailekipbot?startgroup=a')],
                     ),
                     link_preview=False
                    )
