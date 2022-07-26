@@ -28,9 +28,9 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/azrailekipbot?startgroup=a')],
-                      [Button.url('Support🛠', 'https://t.me/yesilyolsohbet')],
+                      [Button.url('Support🛠', 'https://t.me/sohbetyesilyoll')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/ekipbotdestek')],
-		      [Button.url('Developer👨🏻‍💻', 'https://t.me/Ekip_Emir25')],
+		      [Button.url('Developer👨🏻‍💻', 'https://t.me/ekiplider')],
                     ),
                     link_preview=False
                    )
@@ -40,9 +40,9 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/azrailekipbot?startgroup=a')],
-                      [Button.url('Support👨‍💻', 'https://t.me/yesilyolsohbet')],
+                      [Button.url('Support👨‍💻', 'https://t.me/sohbetyesilyoll')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/ekipbotdestek')],
-		      [Button.url('Developer🧑‍🔧', 'https://t.me/Ekip_Emir25')],
+		      [Button.url('Developer🧑‍🔧', 'https://t.me/ekiplider')],
                     ),
                     link_preview=False
                    )
@@ -284,5 +284,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> Bot çalıyor merak etme 🚀 @ekip_Emir25 bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @ekiplider bilgi alabilirsin <<")
 client.run_until_disconnected()
